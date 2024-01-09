@@ -8,6 +8,6 @@ randDNAstr = ''.join([random.choice(nucleotides)
 
 DNAstr = validateseq(randDNAstr)
 print(countNucFrequency(randDNAstr))
-
+print(transcription(DNAstr))
 
 
