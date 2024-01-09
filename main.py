@@ -6,6 +6,8 @@ import random
 randDNAstr = ''.join([random.choice(nucleotides)
                       for nuc in range(50)])
 
-print(validateseq(randDNAstr))
+DNAstr = validateseq(randDNAstr)
 print(countNucFrequency(randDNAstr))
+
+
 
