@@ -1,7 +1,6 @@
 #dna tool kit file
 
-nucleotides = ["A", "C", "G", "T"]
-
+from structures import *
 
 #check the sequence to make sure it is a DNA string
 def validateseq(dna_seq):
