@@ -22,6 +22,7 @@ def countNucFrequency(seq):
 def transcription(seq):
     return seq.replace("T", "U")
 
+# does reverse transcription and gives the complementary base pairs (the first steps to forming a double helix) 
 def reverse_complement(seq):
     return ''.join([DNA_ReverseComplement[nuc] for nuc in seq])[::-1]
 
