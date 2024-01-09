@@ -16,3 +16,20 @@ def countNucFrequency(seq):
     for nuc in seq:
         tmpFreqDict[nuc] += 1
     return tmpFreqDict
+
+#replicating transcription and translation::
+
+def transcription(seq):
+    return seq.replace("T", "U")
+
+
+
+
+
+
+
+
+
+
+
+
