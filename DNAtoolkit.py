@@ -22,6 +22,9 @@ def countNucFrequency(seq):
 def transcription(seq):
     return seq.replace("T", "U")
 
+def reverse_complement(seq):
+    return ''.join([DNA_ReverseComplement[nuc] for nuc in seq])[::-1]
+
 
 
 
