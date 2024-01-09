@@ -12,10 +12,14 @@ DNAstr = validateseq(randDNAstr)
 print(f'\nsequence: {DNAstr}\n')
 print(f'[1] + sequence length: {len(DNAstr)}\n')
 print(f'[2] + sequence length: {countNucFrequency(DNAstr)}\n')
+
 print(f'[3] + DNA/RNA Transcription: {transcription(DNAstr)}\n')
-print(f'[4] + Reverse Transcription: {reverse_complement(DNAstr)}\n')
 
+print(f"[4] + DNA string + Reverse Transcription:\n5' {DNAstr} 3'")
+print(f"    {''.join(['|' for c in range(len(DNAstr))])}")
+print(f"3' {reverse_complement(DNAstr)} 5'\n")
 
+# last lines creates a copy of DNA replication transcription and reverse transcription during replication. 
 
 
 
