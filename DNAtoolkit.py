@@ -10,7 +10,7 @@ def validateseq(dna_seq):
         if nuc not in nucleotides:
             return False
         return tmpseq
-
+#uses a dictionary to print the amount of individual nucleotides which is useful in mapping purposes later
 def countNucFrequency(seq):
     tmpFreqDict = {"A": 0,  "C": 0,  "G": 0,  "T": 0}
     for nuc in seq:
