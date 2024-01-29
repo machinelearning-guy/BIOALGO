@@ -20,6 +20,11 @@ print(f"    {''.join(['|' for c in range(len(DNAstr))])}")
 print(f"3' {reverse_complement(DNAstr)[::-1]} 5' [Complement]\n")
 print(f"5' {reverse_complement(DNAstr)} 3' [Rev. compliment]\n")
 
+print(f'[5] + GC content: {gc_content(DNAstr)}%\n')
+print(
+    f'[6] + GC content in subsection k=5: {gc_content_subsec(DNAstr, k=5)}\n')
+
+
 
 
 
